@@ -33,9 +33,9 @@
     </logger>
 
     <!-- 日志级别 TRACE, DEBUG, INFO, WARN, ERROR -->
-    <root level="INFO">
-        <appender-ref ref="STDOUT"/>
-        <appender-ref ref="FILE"/>
+    <root level="ALL">
+        <appender-ref ref="STDOUT" level="DEBUG"/>
+        <appender-ref ref="FILE" level="DEBUG"/>
     </root>
 
 </configuration>
